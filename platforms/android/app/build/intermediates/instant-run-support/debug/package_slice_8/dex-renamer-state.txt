@@ -1,0 +1,4 @@
+#Fri Nov 16 16:00:45 AEDT 2018
+base.0=C\:\\Upskill\\Cordova apps\\hello\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\47
+path.0=classes.dex
+renamed.0=classes.dex

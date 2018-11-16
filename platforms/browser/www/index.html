@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Places Search Box</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+  </head>
+  <body>
+      <div><button onClick="getLocationsData()">Get locations data</button></div>
+      <div  id="map-holder">
+        <input id="pac-input" class="controls" type="text" placeholder="Search Box">
+        <div id="map-canvas"></div>
+        <div id="address"></div>
+      </div>
+    <script type="text/javascript" src="js/index.js">
+    
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8kX0kwH4yEryNJz-EmhIVR5-NDgkfOSk&libraries=geometry,places&ext=.js&callback=initAutocomplete"
+         async defer></script>
+  </body>
+</html>
